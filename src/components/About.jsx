@@ -5,6 +5,7 @@ const About = ({ hero }) => {
   return (
     <div>
       <div className="about-card">
+      <h3>About me:</h3>
         {hero.aboutMe.map((item) => {
           return (
             <div key={JSON.stringify(item)}>

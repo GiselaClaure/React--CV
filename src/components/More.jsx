@@ -13,6 +13,7 @@ const More = ({habilities, languages}) => {
           );
         })},
       </div>  
+      
   );
 };        
 
