@@ -9,17 +9,15 @@ const Hero = ({ hero }) => {
       <h2>
         {hero.fullName}
       </h2>
-        <p>🗺️{hero.city} </p>
-        <p>🗓️{hero.dateOfBirth}</p>
+        <p>📍{hero.city} </p>
+        <p>🎂{hero.dateOfBirth}</p>
+        <p>📱 {hero.phone}</p>
         <p>
-          📧
           <a href={"mailto:" + hero.email}>
-          giselaclaure@gmail.com
+          <img class="icon" src="https://cdn0.iconfinder.com/data/icons/email-60/24/email-message-envelope-read-circle-512.png"/>
           </a>
         </p>
-        <p>📱 {hero.phone}</p>
-        <p>💾<a href={hero.gitHub}>
-            GitHub
+        <p> <a href={hero.gitHub}><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"/>
           </a></p>
       </div>
     </div>
